@@ -1,0 +1,97 @@
+.eo {
+  iframe {
+    width: 100%;
+  }
+  h4 {
+    font-size: 30px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
+}
+
+.eo-contest_div {
+  i {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    width: 30px !important;
+    height: 30px !important;
+    font-size: 30px !important;
+  }
+  a {
+    padding: 0 !important;
+    height: 50px !important;
+    margin: 5px !important;
+  }
+}
+
+.eo-table {
+  td {
+    border-bottom: none !important;
+    font-weight: bold !important;
+  }
+  @media(max-width: 567px) {
+    tbody tr td:first-child {
+      padding-left: 0;
+      
+    }
+    tbody tr td:last-child {
+      padding-right: 0;
+    }
+  }
+}
+
+.eo-contest-wrapper {
+  position: absolute !important;
+  top: 20% !important;
+  left: 25px !important;
+}
+
+.profile-actions {
+  position: absolute !important;
+  bottom: 0 !important;
+  @media(max-height: 576px) and (orientation: landscape) {
+    position: static !important;
+    margin-top: 30px !important;
+  }
+}
+
+.eo-how-to-play {
+  margin-bottom: 5px;
+  summary {
+    text-decoration: underline;
+    text-decoration-style: dotted;
+  }
+}
+
+.eo-expo-gift {
+  img {
+    max-width: 100%;
+  }
+  .eo-expo-gift-price {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    justify-content: flex-start;
+  }
+  .mdc-card {
+    justify-content: space-between;
+  }
+}
+
+.eo-expo-busket-popup {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 0 242px 0 242px;
+  @media(max-height: 576px) {
+    padding: 0;
+  }
+  .mdc-card {
+    padding: 10px !important;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  }
+}
+
+.eo-expo-zone-footer {
+  padding-bottom: 70px;
+}
