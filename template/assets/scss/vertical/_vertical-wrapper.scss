@@ -4,7 +4,7 @@
     .page-wrapper {
       background: $content-bg;
       .content-wrapper {
-        min-height: calc(100vh - 64px - 67px);
+        min-height: calc(100vh - 170px);
         padding: 16px 30px;
         @media (max-width: 767px) {
           padding: 16px;

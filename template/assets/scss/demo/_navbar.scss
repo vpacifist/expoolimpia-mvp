@@ -13,6 +13,8 @@
     .mdc-top-app-bar__title {
       font-weight: 400;
       margin-right: 36px;
+      line-height: normal;
+      white-space: normal;
     }
     .mdc-text-field--with-leading-icon {
       &.search-text-field {

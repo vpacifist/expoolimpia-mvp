@@ -24,7 +24,7 @@ $theme-colors: (
   primary:      $mdc-theme-primary,
   secondary:    $mdc-theme-secondary,
   info:         #00bbdd,
-  success:      #00b67a,
+  success:      #01705f,
   warning:      #ffc107,
   danger:       $mdc-theme-secondary,
   light:        #f0f1f1,
@@ -97,7 +97,7 @@ $footer-height: 40px;
 ////////// SIDEBAR /////////
 $mdc-drawer-width: 243px;
 $mdc-drawer-list-item-spacing: 7px;
-$mdc-drawer-list-item-margin: $mdc-drawer-list-item-spacing 16px $mdc-drawer-list-item-spacing 27px;
+$mdc-drawer-list-item-margin: $mdc-drawer-list-item-spacing 27px $mdc-drawer-list-item-spacing 27px;
 $mdc-drawer-link-color: #fff;
 ////////// SIDEBAR /////////
 
